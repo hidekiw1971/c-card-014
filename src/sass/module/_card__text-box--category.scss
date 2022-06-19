@@ -7,8 +7,9 @@
   letter-spacing: rem(1);
   line-height: 1.857;
   text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
+  background-color: #ffea2e;
+  // white-space: nowrap;
+  // overflow: hidden;
   @include mq(md) {
   }
   @include mq(xl) {
