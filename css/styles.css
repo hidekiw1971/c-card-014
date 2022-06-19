@@ -172,4 +172,33 @@ select {
 select::-ms-expand {
   display: none;
 }
+
+.card__img--inner {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.card__img {
+  width: 350px;
+  width: 21.875rem;
+  height: 233px;
+  height: 14.5625rem;
+  overflow: hidden;
+}
+.card__inner {
+  min-height: inherit;
+}
+.card {
+  display: inline-block;
+  width: 350px;
+  width: 21.875rem;
+  min-height: 416px;
+  min-height: 26rem;
+  height: 100%;
+  background-color: #111;
+}
+.outside {
+  text-align: center;
+}
 /*# sourceMappingURL=styles.css.map */
