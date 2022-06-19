@@ -173,6 +173,37 @@ select::-ms-expand {
   display: none;
 }
 
+.card__baddge {
+  width: 350px;
+  width: 21.875rem;
+  min-height: inherit;
+  height: inherit;
+  position: relative;
+  margin: 25px;
+  margin: 1.5625rem;
+}
+.card__baddge::after {
+  content: "New";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 60px;
+  width: 3.75rem;
+  height: 60px;
+  height: 3.75rem;
+  position: absolute;
+  top: -5%;
+  left: -6%;
+  background-color: #ffba6a;
+  border-radius: 2.8125rem;
+  overflow: hidden;
+}
 .card__img--inner {
   width: 100%;
   height: 100%;
@@ -188,6 +219,7 @@ select::-ms-expand {
 }
 .card__inner {
   min-height: inherit;
+  background-color: #fff;
 }
 .card__text-box--category-date {
   display: -webkit-box;
@@ -207,8 +239,6 @@ select::-ms-expand {
   letter-spacing: 0.0625rem;
   line-height: 1.857;
   text-align: left;
-  white-space: nowrap;
-  overflow: hidden;
 }
 .card__text-box--explain {
   font-family: "Noto Sans JP", sans-serif;
@@ -232,9 +262,6 @@ select::-ms-expand {
   line-height: 1.944;
   text-align: left;
 }
-.card__text-box-date {
-  overflow: hidden;
-}
 .card__text-box-date time {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 14px;
@@ -254,14 +281,15 @@ select::-ms-expand {
 }
 .card {
   display: inline-block;
-  width: 350px;
-  width: 21.875rem;
+  width: 400px;
+  width: 25rem;
   min-height: 416px;
   min-height: 26rem;
   height: 100%;
-  background-color: #ff69b4;
+  background-color: #111;
 }
 .outside {
   text-align: center;
+  background-color: #111;
 }
 /*# sourceMappingURL=styles.css.map */

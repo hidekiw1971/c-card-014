@@ -1,6 +1,6 @@
 @use "global" as *;
 .card__text-box-date {
-  overflow: hidden;
+  // overflow: hidden;
   @include mq(md) {
   }
   @include mq(xl) {

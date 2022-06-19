@@ -1,6 +1,7 @@
 @use "global" as *;
 .card__inner {
   min-height: inherit;
+  background-color: #fff;
   @include mq(md) {
   }
   @include mq(xl) {

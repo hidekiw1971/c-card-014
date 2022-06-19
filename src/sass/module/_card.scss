@@ -1,10 +1,12 @@
 @use "global" as *;
 .card {
   display: inline-block;
-  width: rem(350);
+  // width: rem(350);
+  width: rem(400);
   min-height: rem(416);
   height: 100%;
-  background-color: #ff69b4;
+  // background-color: #ff69b4;
+  background-color: #111;
   @include mq(md) {
   }
   @include mq(xl) {
