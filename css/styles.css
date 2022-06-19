@@ -189,6 +189,69 @@ select::-ms-expand {
 .card__inner {
   min-height: inherit;
 }
+.card__text-box--category-date {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.card__text-box--category {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
+  line-height: 1.857;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card__text-box--explain {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
+  line-height: 1.857;
+  text-align: left;
+}
+.card__text-box--title {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 18px;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
+  line-height: 1.944;
+  text-align: left;
+}
+.card__text-box-date {
+  overflow: hidden;
+}
+.card__text-box-date time {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 14px;
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 1px;
+  letter-spacing: 0.0625rem;
+  line-height: 1.857;
+  text-align: left;
+}
+.card__text-box {
+  padding-right: 24px;
+  padding-right: 1.5rem;
+  padding-left: 24px;
+  padding-left: 1.5rem;
+}
 .card {
   display: inline-block;
   width: 350px;
@@ -196,7 +259,7 @@ select::-ms-expand {
   min-height: 416px;
   min-height: 26rem;
   height: 100%;
-  background-color: #111;
+  background-color: #ff69b4;
 }
 .outside {
   text-align: center;
