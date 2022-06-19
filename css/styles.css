@@ -174,16 +174,16 @@ select::-ms-expand {
 }
 
 .card__baddge {
-  width: 350px;
-  width: 21.875rem;
-  min-height: inherit;
-  height: inherit;
   position: relative;
-  margin: 25px;
-  margin: 1.5625rem;
 }
 .card__baddge::after {
   content: "New";
+  width: 60px;
+  width: 3.75rem;
+  height: 60px;
+  height: 3.75rem;
+  background-color: #ffba6a;
+  position: absolute;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -193,16 +193,10 @@ select::-ms-expand {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 60px;
-  width: 3.75rem;
-  height: 60px;
-  height: 3.75rem;
-  position: absolute;
-  top: -5%;
-  left: -6%;
-  background-color: #ffba6a;
   border-radius: 2.8125rem;
   overflow: hidden;
+  top: 0%;
+  left: 0%;
 }
 .card__img--inner {
   width: 100%;
@@ -220,6 +214,8 @@ select::-ms-expand {
 .card__inner {
   min-height: inherit;
   background-color: #fff;
+  margin: 25px;
+  margin: 1.5625rem;
 }
 .card__text-box--category-date {
   display: -webkit-box;
@@ -239,6 +235,7 @@ select::-ms-expand {
   letter-spacing: 0.0625rem;
   line-height: 1.857;
   text-align: left;
+  background-color: #ffea2e;
 }
 .card__text-box--explain {
   font-family: "Noto Sans JP", sans-serif;

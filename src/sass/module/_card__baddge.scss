@@ -1,10 +1,6 @@
 @use "global" as *;
 .card__baddge {
-  width: rem(350);
-  min-height: inherit;
-  height: inherit;
   position: relative;
-  margin: rem(25);
   @include mq(md) {
   }
   @include mq(xl) {
@@ -13,17 +9,17 @@
 
 .card__baddge::after {
   content: "New";
+  width: rem(60);
+  height: rem(60);
+  background-color: #ffba6a;
+  position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: rem(60);
-  height: rem(60);
-  position: absolute;
-  top: -5%;
-  left: -6%;
-  background-color: #ffba6a;
   border-radius: rem(45);
   overflow: hidden;
+  top: 0%;
+  left: 0%;
   @include mq(md) {
   }
   @include mq(xl) {
